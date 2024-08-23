@@ -1,0 +1,731 @@
+
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  .contnav{
+    /* border: 2px green solid; */
+    height: 60px;
+    width: 100%;
+  }
+  .parentnav{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px red solid; */
+  }
+  .childnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 40px;
+    border-bottom: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px gray;
+    font-size: 30px;
+    color: #ff1a94;
+  }
+  .imgnav{
+    margin-left: 20px;
+  }
+  .fntmarginnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .hovernav:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    background-color: #ff1a94;
+  }
+  .btnnav{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    border-radius: 6px;
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .mrginnav{
+    margin-right: 10px;
+  }
+  .font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin: 10px;
+    font-size: 25px;
+    box-shadow: 3px 4px 20px 5px grey;
+    border: none;
+    border-radius: 5px;
+  }
+  .div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    color: #ff1a94;
+  }
+  .div3 {
+    padding: 20px;
+    border: none;
+  }
+  .divp2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    align-items: center;
+    font-weight: bolder;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-family: "popins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .parent1{
+    display: flex;
+    /* background-color: yellow; */
+    /* text-align: center; */
+    justify-content: center;
+}
+.childe{
+    width: 100%;
+    font-size: 50px;
+    border: whitesmoke solid 4px;
+    border-radius: 10px;
+}
+.input{
+    text-align: justify;
+    text-transform: capitalize;
+    padding-left: 20px;
+    height: 40px;
+    width: 70%;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: whitesmoke solid 4px;
+}
+.btn4{
+ font-weight: 500;
+}
+  .cont3 {
+    font-size: 40px;
+    text-align: justify;
+  }
+  .divimg{
+    background-image: url(img/gbcv\ \(1\).png);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .div3fnt {
+    font-size: 30px;
+    font-family: "popins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .divcard { 
+    background-color: azure;
+    height: 330px;
+    width: 580px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: -150px 0px 100px 75px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .p{
+    font-size: 15px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  .btn{
+    background-color: #ff1a94;
+    border: none;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   color: antiquewhite;
+   border-radius: 6px;
+   height: 45px;
+   width: 100px;
+   margin-left: 25px;
+   margin-top: 10px;
+  }
+  .p1{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+  .p41{
+    font-size: 30px;
+    margin-top: -50px;
+  }
+  .img2{
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 8px;
+    padding-right: 60px;
+    padding-left: 60px;
+  } 
+  .divcard1{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Islamabad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard2{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Karachi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard3{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Lahore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard4{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Faisalabad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard5{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Rawalpindi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard6{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Abottabad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard7{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Bahawalpur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard8{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-DeraGhaziKhan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard9{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Gujranwala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard10{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Gujrat.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard11{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Hyderabad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard12{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Jhelum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard13{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Kamoke.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard14{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Larkana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard15{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Mangla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard16{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Mardan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard17{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Multan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard18{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Murree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard19{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Okara.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard20{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-PanoAqil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard21{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Peshawar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard22{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Quetta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard23{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/RahimYarKhan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard24{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Sadiqabad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard25{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Sahiwal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard26{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Sargodha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard27{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-Sheikhupura.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard28{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Sialkot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .img3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+
+  }
+  .divcard29{
+    display: flex;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/Sukkur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .divcard30{
+    display: flex;
+    justify-content: left;
+    height: 230px;
+    width: 270px;
+    border-radius: 12px;
+    justify-content: left;
+    align-items: end;
+    background-image: url(img2/city-tile-WahhCannt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .btn1{
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 9px;
+    margin-left: 14px;
+    border-radius: 7px;
+    text-align: center;
+    height: 40px;
+    /* width: 120px; */
+    font-style: normal;
+    
+  }
+  .h4cont{
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-family: "popins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .cont5{
+    font-size: 35px;
+    margin-top: 40px;
+  }
+  .parent{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 95%;
+    margin: 40px;
+    background-color: #ff1a94;
+    border-radius: 10px;
+  }
+  .child{
+    color: aliceblue;
+    width: 40%;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 20px;
+  }
+  .child2{
+    margin-top: -80px;
+  }
+  .child1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-style: normal;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 200;
+
+  }
+  .p24{
+    font-weight: 600;
+    font-style: normal;       
+  }
+  .divimg4{
+    background-image: url(img/dgbf.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .divcard04{
+    background-color: whitesmoke;
+    height: 250px;
+    width: 580px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: -150px 0px 100px 130px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease;
+    cursor: pointer;
+    background-color: #ff1a94;
+  }
+  .hover:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease;
+    cursor: pointer;
+  }
+  .margin{
+    margin-left: 70px;
+
+  }
+  .margin2{
+    /* margin-left: -80px; */
+    margin-right: 662px;
+  }
+.container{
+  display: flex;
+  width: 85%;
+  margin: 110px;
+}
+.parent{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-wrap: pretty;
+  padding-top: 40px;
+}
+.div-h1{
+  font-size: 20px;
+  text-align: justify;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 20px;
+}
+div.p{
+  justify-items: normal;
+  text-align: justify;
+}
+.sizeh1{
+  font-size: 30px;
+}
+.cont6{
+  width: 90%;
+  margin: 90px;
+}
+.footpart{
+  height: 80px;
+  width: 800px;
+  margin-left: 70px;
+  padding-right: 20px;
+  word-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-spacing: 20px;
+  display: flex;
+  width: 85%;
+}
+.box1{
+  font-size: 18px;
+  text-transform: capitalize; 
+  display: flex;
+  width: 100%;
+  font-weight: lighter;
+  height: 50px;
+  margin: 10px 0px 0px px;
+}.mrgin12{
+  margin: 5px;
+}
+.divcart{
+  border: none;
+  height: 50px;
+  width: 110px;
+  margin-right: 20px;
+  background-color: white;
+   
+}
